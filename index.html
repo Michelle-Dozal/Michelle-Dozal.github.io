@@ -2,21 +2,80 @@
 
 <html>
 
+<style>
+
+
+body {background-color: silver}
+
+.navigation {
+  background-color: #500;
+  overflow: hidden;
+   } 	    
+   .navigation a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 12px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navigation a:hover{
+background-color:white;
+color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+
+
+
  <head>
 	 <title> Michelle Dozal </title>
 	
+ 
+ <div class="navigation">
+  <a class="Home" href="./index.html"> Home </a>
+  <a href="#Projects"> Projects</a>
+  <a href="#Resume"> Resume </a>
+  <a href ="#Skills"> Skills </a>
+  </div>
+ 
+ 
+ 
  </head>
 
 <body>
-	<img src = "images/Headshot.JPG" width="200">
-	<h1>Michelle Dozal</h1>
-	<h2> Computer Engineering Student</h2>
+
+     
+	<img src = "images/Headshot.JPG" class = "center" width="200" >
+	<h1><center>Michelle Dozal</h1>
+	<h2><center> Computer Engineering Student</h2>
 	<p>________________________________________________________________________________________</p>
 	
 <p> I am currently a computer Engineering student at UCR </p>
 	
 	
 <iframe width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?Michelle-Dozal" frameborder="0"></iframe>
+
+
+<div id= "Projects">
+<p> Here are projects </p>
+</div>
+
+<div id= "Resume">
+<p> Here is Resume </p>
+</div>
+
+<div id= "Skills">
+<p> Here are skills </p>
+</div>
 
 </body>
 
