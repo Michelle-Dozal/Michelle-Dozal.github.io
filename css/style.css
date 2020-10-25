@@ -1,4 +1,8 @@
-body {background-color: silver}
+<!--<body {background-color: silver}>-->
+
+
+background-image: url(“images/space.gif”);
+background-repeat: no-repeat;
 
 .navigation {
   background-color: #500;
