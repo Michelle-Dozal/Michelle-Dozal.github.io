@@ -34,3 +34,36 @@ color: black;
 .Headshot {
   border-radius: 50%;
 }
+
+footer li{
+  display: inline-block ;
+  padding: 10px;
+ 
+}
+
+.github-bttn{
+color:white;
+padding: 15x;
+font-size:48px;
+
+}
+
+.github-bttn:hover{
+color:#500;
+}
+
+.linked-bttn{
+color:white;
+padding: 15x;
+font-size:48px;
+
+}
+
+.linked-bttn:hover{
+color:#500;
+}
+
+
+
+
+
