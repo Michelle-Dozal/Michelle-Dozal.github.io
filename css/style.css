@@ -53,6 +53,14 @@ footer li{
  
 }
 
+.codebuttn{
+  color:white; 
+}
+
+.codebuttn:hover{
+  color:#500;
+}
+
 .github-bttn{
 color:white;
 padding: 15x;
