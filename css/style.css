@@ -46,6 +46,11 @@ font-family:Snell Roundhand, cursive;
 font-family:Snell Roundhand, cursive;
 }
 
+.skillformat {  
+  float:left;
+  width:33%;
+
+}
 
 footer li{
   display: inline-block ;
