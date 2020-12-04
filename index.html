@@ -15,27 +15,29 @@ background-image: url("https://www.fromanniek.com/wp-content/uploads/2018/06/058
 
  <head>
 	 <title> Michelle Dozal </title>
-
+<!-- Linking the CSS stylesheets -->
 	 <link href="css/style.css" rel="stylesheet">	
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	 <link rel= "icon" type="image/jpg" href="images/Headshot.JPG" sizes="16x16">
  
- <div class="navigation">
+<!-- This is the navigation bar -->	 
+ <nav id ="navigation">
   <a class="Home" href="./index.html"> Home </a>
   <a href = "#About"> About </a>
   <a href="#Projects"> Projects</a>
   <a href ="#Skills"> Skills </a>
   <a href="#Resume"> Resume </a>
   <a href ="#Contact"> Contact </a>
-  </div>
- 
- 
+  </nav>
  
  </head>
 
+
+<!-- Where the body of HTML page starts -->
 <body>
   
-<header>   	
+<header>   
+<!-- The header where name and headshot liet -->
 	<br>
 	<div class = "center">
 	<img src = "images/Headshot.JPG"  class = "Headshot" width="200"
@@ -51,6 +53,9 @@ background-image: url("https://www.fromanniek.com/wp-content/uploads/2018/06/058
 <br>
 <br>
 
+	
+<!-- The about me section full with intro,education,and experience. -->	
+	
 <div id = "About">
 <h1> <center>About</center> </h1>
 <p> I am currently a Computer Engineering student at the University of California - Riverside. I plan to graduate in Spring 2021 and I'm looking for internships/full-time positions from then. </p>
@@ -106,7 +111,7 @@ background-image: url("https://www.fromanniek.com/wp-content/uploads/2018/06/058
 <br>
 <br>
 		
-
+<!-- Where all my projects are listed -->
 
 <div id= "Projects">
 	<h1> <center>Projects</center> </h1>
@@ -131,6 +136,7 @@ background-image: url("https://www.fromanniek.com/wp-content/uploads/2018/06/058
 
 </div>
 
+<!-- Where all my skills are listed -->	
 <div id= "Skills">
 	<h1> <center>Skills</center> </h1>
 <div class = "skillformat">
@@ -169,7 +175,7 @@ background-image: url("https://www.fromanniek.com/wp-content/uploads/2018/06/058
 	<p> Here is Resume </p>
 </div>		
 	
-	
+<!-- Footer with all the contact information -->	
 <footer>
 <div id = "Contact">
 	<h1><center> Contact Me!</center></h1>
@@ -192,5 +198,30 @@ background-image: url("https://www.fromanniek.com/wp-content/uploads/2018/06/058
 <br>
 </footer>		
 
+	
+<!-- All the JS below -->	
+<script>
+//Code help from wwwschools
+// When the user scrolls the page, execute the function below
+    window.onscroll = function() {myFunction()};
+
+// Get the navigation bar as the element
+    var navbar = document.getElementById("navigation");
+
+// Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+</script>	
+	
+	
 </body>
 </html>
