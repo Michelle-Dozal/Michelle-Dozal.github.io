@@ -118,7 +118,18 @@ font-size:48px;
 color:#500;
 }
 
+.mail-bttn{
+  color:white;
+padding: 15x;
+font-size:48px;
 
+}
+
+.mail-bttn:hover{
+  color:#500;
+}
+
+  
 
 
 
