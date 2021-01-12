@@ -86,17 +86,17 @@ footer li{
  
 }
 
-/* Link Color */
-a {
+/* Link Color for Education div */
+.education a {
   color: white;
  }
 
-a {
+.education a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
 }
-a:hover {
+.education a:hover {
   color: black;
   border-bottom: 1px solid;     
   background: white;
