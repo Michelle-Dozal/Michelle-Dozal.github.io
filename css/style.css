@@ -11,6 +11,7 @@ body {
 /*So there is a left margin for body */
 #everything{
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 /*All the stylings for the navigation bar*/
