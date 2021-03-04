@@ -8,6 +8,10 @@ body {
   color:snow;
   font-family: Arial, sans-serif;
 }
+/*So there is a left margin for body */
+#everything{
+  margin-left: 50px;
+}
 
 /*All the stylings for the navigation bar*/
 #navigation {
